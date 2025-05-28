@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Flask
+instance/
+.env
+*.env
+*.secret
+
+# Node modules (if you ever add npm stuff)
+node_modules/
+
+# VS Code and editor files
+.vscode/
+*.swp
+
+# System
+.DS_Store
+Thumbs.db
+
+# Backup/Tarball files
+*.tgz
+*.tar.gz
+*.zip
+
+# Static cache/minified
+static/css/*.min.css
+static/js/*.min.js
+
+# Large artifacts (add more as needed)
+connect-atx-elite-src-*.tgz
+
